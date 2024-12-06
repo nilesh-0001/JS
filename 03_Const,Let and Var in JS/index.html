@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let-var-const</title>
+</head>
+<body>
+    <div class="subject">In this session we are gonna talk about Difference btw let const and var </div>
+    <ol>
+        <li>Let</li>
+        <p>It can be updated but not re-declared</p>
+        <li>var</li>
+        <p>var is Globally scoped and let or const are block scoped</p>
+        <p>var can be redeclared and update within its scope</p>
+        <li>const</li>
+        <p>const are neither be updated or nor be re-declared</p>
+    </ol>
+    <p>
+        <div>var variables are initalized with undefined where as let and const are not initalized </div>
+        <div>const must be initialized during declaration unlike let and var </div>
+    </p>
+    <pre>
+        <code>
+            console.log("Difference btw var let const");
+               let a = 34;
+               let b = "Nishu";
+               // b = 3; 
+               const author = "Nilesh"
+               // const nishu;
+               console.log(author)
+               let c = null;
+               let d = undefined;
+               {
+                 let b = "this";
+                 console.log(b);
+               }
+               console.log(b);
+        </code>
+    </pre>
+</body>
+</html>
