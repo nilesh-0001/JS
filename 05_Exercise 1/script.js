@@ -26,12 +26,6 @@ console.log(info)
 
 // //Problem 5 
 //Write a Js Program to create a Dictionary of three words ? 
-
-
- 
-// info = 567
-
-
     const dict = {
         Brainiac: "A very intelligent person",
         Pyromancy: "The act of attempting to tell the future using fire",
