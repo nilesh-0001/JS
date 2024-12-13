@@ -1,4 +1,4 @@
-// // In thius session we are gonna talk about Array Methods
+// // // In thius session we are gonna talk about Array Methods
 
 // Convert Array into a String
 // tostring()
