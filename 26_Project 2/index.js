@@ -1,0 +1,1 @@
+// Use JavaScript to create a game of snake,water and gun . The game Should ask you to Enter S, W or G . The computer should able to randomly generate S, w or G and declare win or loss using alert Use Confirm and prompt whenever required .
