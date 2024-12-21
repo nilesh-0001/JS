@@ -11,3 +11,5 @@ It was a Course by Codewitharry for this course visit codewitharry yt channel
   <li>You can use any Browser console to run Javascript there with developer mode on </li>
   <li>You can use any other online platform to run Javascript</li>
 </ol>
+<h3>Thank you</h3>
+<h3>Happy Coding</h3
