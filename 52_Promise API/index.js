@@ -31,7 +31,7 @@ let p2 = new Promise((resolve,reject)=>{
 
 // 1 -- Promise.all
 // Wait for all promises to resolve and returns the array of their results. If anyone fails, it becomes the error and all other results are ignored.
-// ASSAN BHASA mai(It is gonna wait and Print all the Promises at one time in the form of array but if there was any error present inn the given Promises it is not gonna Print).
+// ASSAN BHASA mai(It is gonna wait and Print all the Promises at one time in the form of array but if there was any error present inn the given Promises it is not gonna Print anything).
 // let Promise_all = Promise.all([p,p1,p2])
 // Promise_all.then((value)=>{
 //     console.log(value)
