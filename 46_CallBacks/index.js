@@ -23,31 +23,31 @@ function loadscript(src, callback) {
   let script = document.createElement("script");
   script.src = src;
   script.onload = function () {
-    alert("Loaded sript with SRC : " + src);
+    console.log("Loaded sript with SRC : " + src);
     callback(null, src);
   };
   script.onerror = function () {
     alert("Error Loading sript with SRC : " + src);
     callback(new Error("src got some Error"));
   };
-  document.body.append(script);
+  document.body.(script);
 }
 function hello(error, src) {
   if (error) {
     console.log(error);
     return;
   }
-  alert("Hello World " + src);
+  console.log("Hello World " + src);
 }
 function Morning(error, src) {
   if (error) {
     console.log(error);
     return;
   }
-  alert("Good Morning " + src);
+  console.log("Good Morning " + src);
 }
 
 loadscript(
   "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
-  hello
+  Morning
 );
