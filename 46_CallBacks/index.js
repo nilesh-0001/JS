@@ -30,7 +30,7 @@ function loadscript(src, callback) {
     alert("Error Loading sript with SRC : " + src);
     callback(new Error("src got some Error"));
   };
-  document.body.(script);
+  document.body.append(script);
 }
 function hello(error, src) {
   if (error) {
