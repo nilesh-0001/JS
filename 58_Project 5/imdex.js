@@ -40,7 +40,7 @@ let a = [
     "Fetched all Data....",
     "Taking the access of Phone....",
     "Access Complete....",
-    "Phone no. of user : 9311573***....",
+    "Phone no. of user : 931*******....",
 ]
 const sleep = async (seconds)=>{
     return new Promise((reolve,reject)=>{
