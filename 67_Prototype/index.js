@@ -20,23 +20,19 @@ a.__proto__ = x
 a.al()
 console.log(a.name1)
 
- /*
- JavaScript obiects have a special Property called
-Prototype that is either null or ' references
-amother ohject
+/*
+JavaScript objects have a special property called "prototype," 
+which is either null or references another object.
 
-When we try to read a Property from a Prototype
-and its missing, JavaScript automatically takes it
-fron the Prototype . This is callid "prototypal inheritence
+This allows for "prototypal inheritance," meaning if we try to 
+access a property in an object that is missing, JavaScript 
+automatically looks for it in the prototype.
 
-// Setting Protetype
+**Setting Prototype**
+We can set a prototype by assigning to the `__proto__` property.
 
-We can Set Prototype by setting __proto__
-Now if we read A Property fom the object
-Which is not in object and is present in the
-Prototype JavaScript will take it from prototype
-
-If we have A method in object it will be Called
-from the object. If its missing in object And
-present in ' Prototype, its called from the Prototype.
- */
+If a property or method is not found in the object itself but exists 
+in the prototype, JavaScript retrieves it from the prototype. 
+However, if the object has its own property or method with the same 
+name, it will take precedence over the one in the prototype.
+*/
