@@ -25,3 +25,16 @@ Nishu.submit()
 Nishu1.submit()
 Anshu.submit()
 Nishu1.cancel()
+
+/* 
+Classes in JavaScript
+A class is a blueprint for creating objects.
+It defines properties (attributes) and methods (functions) that the created objects will have.
+Introduced in ES6, the class keyword provides a cleaner and more intuitive way to define object-oriented structures.
+*/
+
+/*
+Objects in JavaScript
+An object is an instance of a class.
+It represents a real-world entity with specific values for the properties defined in the class.
+*/
