@@ -35,3 +35,6 @@ If you’re trying to use `prompt()` or `alert()` in a Node.js environment (like
 2. Add this to your HTML:
    ```html
    <script src="your-script.js"></script>
+
+
+## BY Nilesh Bisht
